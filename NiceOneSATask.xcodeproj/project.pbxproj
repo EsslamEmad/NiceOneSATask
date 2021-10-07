@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923B993E270F11F1005A1F16 /* CartItemCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B993D270F11F1005A1F16 /* CartItemCellController.swift */; };
 		92C42498270E126900F172AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C42497270E126900F172AD /* AppDelegate.swift */; };
-		92C4249A270E126900F172AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C42499270E126900F172AD /* SceneDelegate.swift */; };
-		92C4249C270E126900F172AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4249B270E126900F172AD /* ViewController.swift */; };
-		92C4249F270E126A00F172AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4249D270E126A00F172AD /* Main.storyboard */; };
 		92C424A1270E129900F172AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C424A0270E129900F172AD /* Assets.xcassets */; };
 		92C424A4270E129900F172AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C424A2270E129900F172AD /* LaunchScreen.storyboard */; };
+		92C424AC270E1B5600F172AD /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424AB270E1B5600F172AD /* CartViewController.swift */; };
+		92C424AF270E270300F172AD /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424AE270E270300F172AD /* CartItemTableViewCell.swift */; };
+		92C424B3270E3A8D00F172AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424B2270E3A8D00F172AD /* Product.swift */; };
+		92C424B5270E3C1400F172AD /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424B4270E3C1400F172AD /* APIResponse.swift */; };
+		92C424BE270E3FBB00F172AD /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424BD270E3FBB00F172AD /* CartViewModel.swift */; };
+		92C424C0270E443E00F172AD /* APICartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424BF270E443E00F172AD /* APICartResponse.swift */; };
+		92C424C2270E46B600F172AD /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C424C1270E46B600F172AD /* Defaults.swift */; };
+		B99B3C81C529BD6D4DC086E8 /* Pods_NiceOneSATask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A714C1249A1C8A674191B1B /* Pods_NiceOneSATask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923B993D270F11F1005A1F16 /* CartItemCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCellController.swift; sourceTree = "<group>"; };
 		92C42494270E126900F172AD /* NiceOneSATask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceOneSATask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C42497270E126900F172AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92C42499270E126900F172AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92C4249B270E126900F172AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92C4249E270E126A00F172AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C424A0270E129900F172AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C424A3270E129900F172AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C424A5270E129900F172AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C424AB270E1B5600F172AD /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		92C424AE270E270300F172AD /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
+		92C424B2270E3A8D00F172AD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		92C424B4270E3C1400F172AD /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		92C424BD270E3FBB00F172AD /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		92C424BF270E443E00F172AD /* APICartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICartResponse.swift; sourceTree = "<group>"; };
+		92C424C1270E46B600F172AD /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		9A714C1249A1C8A674191B1B /* Pods_NiceOneSATask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceOneSATask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C8277D49F9D8E85726A88 /* Pods-NiceOneSATask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceOneSATask.release.xcconfig"; path = "Target Support Files/Pods-NiceOneSATask/Pods-NiceOneSATask.release.xcconfig"; sourceTree = "<group>"; };
+		D296A06724F3763B3CFBCE70 /* Pods-NiceOneSATask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceOneSATask.debug.xcconfig"; path = "Target Support Files/Pods-NiceOneSATask/Pods-NiceOneSATask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99B3C81C529BD6D4DC086E8 /* Pods_NiceOneSATask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				92C42496270E126900F172AD /* NiceOneSATask */,
 				92C42495270E126900F172AD /* Products */,
+				C2D5D494A9604058D7BDEF21 /* Pods */,
+				BB7C23980D85A1C92D9A44EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,109 @@
 		92C42496270E126900F172AD /* NiceOneSATask */ = {
 			isa = PBXGroup;
 			children = (
-				92C42497270E126900F172AD /* AppDelegate.swift */,
-				92C42499270E126900F172AD /* SceneDelegate.swift */,
-				92C4249B270E126900F172AD /* ViewController.swift */,
-				92C4249D270E126A00F172AD /* Main.storyboard */,
-				92C424A0270E129900F172AD /* Assets.xcassets */,
-				92C424A2270E129900F172AD /* LaunchScreen.storyboard */,
 				92C424A5270E129900F172AD /* Info.plist */,
+				92C424BA270E3D7000F172AD /* Configuration */,
+				92C424B1270E3A6700F172AD /* Models */,
+				92C424B6270E3D1D00F172AD /* Modules */,
+				92C424BB270E3D8600F172AD /* Resources */,
+				92C424A2270E129900F172AD /* LaunchScreen.storyboard */,
+				92C424C1270E46B600F172AD /* Defaults.swift */,
 			);
 			path = NiceOneSATask;
+			sourceTree = "<group>";
+		};
+		92C424AD270E26C500F172AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92C424AE270E270300F172AD /* CartItemTableViewCell.swift */,
+				923B993D270F11F1005A1F16 /* CartItemCellController.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		92C424B1270E3A6700F172AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92C424B2270E3A8D00F172AD /* Product.swift */,
+				92C424B4270E3C1400F172AD /* APIResponse.swift */,
+				92C424BF270E443E00F172AD /* APICartResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92C424B6270E3D1D00F172AD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				92C424B7270E3D4100F172AD /* Cart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		92C424B7270E3D4100F172AD /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				92C424B9270E3D5700F172AD /* ViewModels */,
+				92C424B8270E3D4E00F172AD /* ViewControllers */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		92C424B8270E3D4E00F172AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92C424AD270E26C500F172AD /* Cells */,
+				92C424AB270E1B5600F172AD /* CartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92C424B9270E3D5700F172AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92C424BD270E3FBB00F172AD /* CartViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		92C424BA270E3D7000F172AD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				92C42497270E126900F172AD /* AppDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		92C424BB270E3D8600F172AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92C424BC270E3D8F00F172AD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92C424BC270E3D8F00F172AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				92C424A0270E129900F172AD /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BB7C23980D85A1C92D9A44EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A714C1249A1C8A674191B1B /* Pods_NiceOneSATask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2D5D494A9604058D7BDEF21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D296A06724F3763B3CFBCE70 /* Pods-NiceOneSATask.debug.xcconfig */,
+				C26C8277D49F9D8E85726A88 /* Pods-NiceOneSATask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C424A8270E129900F172AD /* Build configuration list for PBXNativeTarget "NiceOneSATask" */;
 			buildPhases = (
+				5833254A20B0F3E3F463BBD8 /* [CP] Check Pods Manifest.lock */,
 				92C42490270E126900F172AD /* Sources */,
 				92C42491270E126900F172AD /* Frameworks */,
 				92C42492270E126900F172AD /* Resources */,
+				9EC4542C65FA0A7E9ACF6E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +239,73 @@
 			files = (
 				92C424A4270E129900F172AD /* LaunchScreen.storyboard in Resources */,
 				92C424A1270E129900F172AD /* Assets.xcassets in Resources */,
-				92C4249F270E126A00F172AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5833254A20B0F3E3F463BBD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceOneSATask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC4542C65FA0A7E9ACF6E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceOneSATask/Pods-NiceOneSATask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceOneSATask/Pods-NiceOneSATask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceOneSATask/Pods-NiceOneSATask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92C42490270E126900F172AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C4249C270E126900F172AD /* ViewController.swift in Sources */,
+				92C424C2270E46B600F172AD /* Defaults.swift in Sources */,
 				92C42498270E126900F172AD /* AppDelegate.swift in Sources */,
-				92C4249A270E126900F172AD /* SceneDelegate.swift in Sources */,
+				92C424AC270E1B5600F172AD /* CartViewController.swift in Sources */,
+				92C424BE270E3FBB00F172AD /* CartViewModel.swift in Sources */,
+				92C424C0270E443E00F172AD /* APICartResponse.swift in Sources */,
+				923B993E270F11F1005A1F16 /* CartItemCellController.swift in Sources */,
+				92C424B3270E3A8D00F172AD /* Product.swift in Sources */,
+				92C424AF270E270300F172AD /* CartItemTableViewCell.swift in Sources */,
+				92C424B5270E3C1400F172AD /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92C4249D270E126A00F172AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92C4249E270E126A00F172AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92C424A2270E129900F172AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,39 +435,43 @@
 		};
 		92C424A9270E129900F172AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D296A06724F3763B3CFBCE70 /* Pods-NiceOneSATask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZV3V89VA7Y;
 				INFOPLIST_FILE = NiceOneSATask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EsslamEmad.NiceOneSATask.NiceOneSATask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsslamEmad.NiceOneSATask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92C424AA270E129900F172AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26C8277D49F9D8E85726A88 /* Pods-NiceOneSATask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZV3V89VA7Y;
 				INFOPLIST_FILE = NiceOneSATask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EsslamEmad.NiceOneSATask.NiceOneSATask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EsslamEmad.NiceOneSATask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
